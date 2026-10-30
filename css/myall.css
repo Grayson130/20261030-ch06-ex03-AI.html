@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: "Syne Mono", monospace;
+}
+
+:root {
+    --bg001: #15191E;          /* 深灰黑：宇宙/機械背景 */
+    --bg002: #E8E9E7;          /* 米白：RX-78 裝甲 */
+    --bg003: #C7CBD0;          /* 淺灰：機械結構 */
+    --bg004: #777575; 
+    --bg005: #84858e;
+    --bg006: #464953;
+
+    --blue001: #173F68;        /* RX-78 深藍 */
+    --blue002: #245D8F;        /* 藍色 */
+    --blue003: #2878B5;        /* 藍色高光 */
+    
+    --red001: #C62828;         /* RX-78 紅 */
+    --red002: #8F1D1D;          /* 深紅 */
+    
+    --yellow001: #E6B800;      /* RX-78 黃 */
+    --yellow002: #ffdf5d;
+    --yellow003: #F2C300;      /* Gundam 經典黃 */
+
+    --bv-green001: #00C42B;       /* 經典 BV 鸚鵡綠 */
+    --bv-green002: #027c1d;       /* 深綠 */
+
+    --green001: #a7fced;
+    --green002: #23c49d;
+
+    --text001: #20252A;        /* 深色文字 */
+    --text002: #F2F3F3;        /* 白色文字 */
+}
+
+
+.fw-100 {
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}

@@ -1,0 +1,191 @@
+body {
+    background-color: var(--bg001);
+    background-image: url(../images/bryan-goff-RF4p4rTM-2s-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1024px;
+    height: 200px;
+    background-color: var(--bg002);
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* box-shadow: 2px 2px 2px 2px var(--red001); */
+}
+
+.logo {
+    width: 1024px;
+    height: 200px;
+    background-color: var(--bg003);
+    background-image: url(../images/2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+nav {
+    background-color: var(--blue001);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+nav ul li a {
+    background-color: var(--blue002);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--yellow001);
+}
+
+nav ul li a:hover {
+    background-color: var(--red001);
+    color: var(--text002);
+    box-shadow: 2px 2px 2px 2px var(--text002);
+}
+
+.content {
+    background-color: var(--bg002);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content h1 {
+    color: var(--red002);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.content .box01 {
+    width: 49%;
+    height: 320px;
+    background-color: var(--bg002);
+    background-image: url(../images/3.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+
+.content .box02 {
+    width: 49%;
+    height: 320px;
+    background-color: var(--bg002);
+    background-image: url(../images/4.jpg);
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+
+.content p {
+    color: var(--text001);
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.content a {
+    display: block;
+    background-color: var(--red002);
+    width: 120px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--bg001);
+    line-height: 50px;
+}
+
+.content a:hover {
+    border-radius: 5px;
+    background-color: var(--red001);
+}
+
+.footer {
+    background-color: var(--bg003);
+    color: var(--text002);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-top: 50px solid var(--yellow001);
+}
+
+@media screen and (max-width:1024px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    .logo {
+        width: 100%;
+        background-color: var(--bg002);
+        background-image: url(../images/1.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .banner .logo {
+        background-image: url(../images/7.png);
+        background-position: center center;
+        background-size: cover;
+        height: 300px;
+    }
+    
+    nav ul {
+        display: block;
+    }
+
+    nav ul li {
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    nav ul li a {
+        display: block;
+        background-color: var(--blue002);
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 0;
+    }
+
+    .content .box01 {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+
+    .content .box02 {
+        width: 100%;
+        height: 400px;
+    }
+}
